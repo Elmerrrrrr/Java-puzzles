@@ -28,7 +28,19 @@ public class Main {
     
         int result3 = ElectronicShop.getMoneySpent(keyboards, drives, b);
         System.out.println("result 3: " + result3);
-
+    
+    
+    
+       //Utopian Tree
+       int t = 3;
+       
+       int result4 = UtopianTree.utopianTree(t);
+       System.out.println("result 4: " + result4);
+    
+        int n=5;
+        int answer = ((int) Math.pow(2, (n + 3) / 2)) + (((int) Math.pow(-1, n)) - 3) / 2;
+        System.out.println("result 4: " +answer);
+    
     }
 
 
