@@ -43,15 +43,21 @@ public class Main {
         
         //Angry Professor
 
-
+        
         //BeautifulDays
-        
         int result7 = BeautifulDays.beautifulDays(20, 23, 6);
-        System.out.println("result 7: " +result7);
+        System.out.println("result 7: " + result7);
+    
+        
+        //ViralAdvertising
+        int result8= ViralAdvertising.viralAdvertising(3);
+        System.out.println("result 8: " + result8);
         
         
         
-    }
-
-
+        }
+        
+        
+        
 }
+
