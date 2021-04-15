@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -50,9 +52,16 @@ public class Main {
     
         
         //ViralAdvertising
-        int result8= ViralAdvertising.viralAdvertising(3);
+        int result8 = ViralAdvertising.viralAdvertising(3);
         System.out.println("result 8: " + result8);
+    
+        //FindDigits
+        int result9 = FindDigits.findDigits(12);
+        System.out.println("result 9: " + result9);
         
+        //ExtraLongFactorials
+        BigInteger result10 = ExtraLongFactorials.extraLongFactorials(25);
+        System.out.println("result 10: " + result10);
         
         
         }
