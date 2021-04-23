@@ -1,5 +1,8 @@
 import java.math.BigInteger;
 import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
@@ -72,7 +75,22 @@ public class Main {
         int result12 = LibraryFine.libraryFine(2, 7, 1014, 1, 1, 1015);
         System.out.println("result 12: " + result12);
     
+        //CutTheSticks
+        int[] result13 = CutTheSticks.cutTheSticks(new int[]{1, 864, 999, 785, 255, 3, 888, 180});
+        System.out.println("result 13: " + Arrays.toString(result13));
+    
+        //ServiceLane
+        List<Integer> widths = new ArrayList<>(Arrays.asList(2, 3, 1, 2, 3, 2, 3, 3));
+        List<List<Integer>> cases = new ArrayList<>();
+       
+        cases.add(new ArrayList<>(Arrays.asList(0,3)));
+        cases.add(new ArrayList<>(Arrays.asList(4,6)));
+        cases.add(new ArrayList<>(Arrays.asList(6,7)));
+        cases.add(new ArrayList<>(Arrays.asList(3,5)));
+        cases.add(new ArrayList<>(Arrays.asList(0,7)));
         
+        List<Integer> result14 = ServiceLane.serviceLane(8,5, cases, widths);
+        System.out.println("result 14: " + result14);
         
     }
 }
