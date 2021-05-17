@@ -91,7 +91,18 @@ public class Main {
         
         List<Integer> result14 = ServiceLane.serviceLane(8,5, cases, widths);
         System.out.println("result 14: " + result14);
+    
+    
+        int result16 = ChocolateFeast.chocolateFeast(6, 2, 2);
+        System.out.println("result 16: " + result16);
         
+        int result17 = LisasWorkbook.workbook(5, 3, new ArrayList<>(Arrays.asList(4, 2, 6, 1, 10)));
+        System.out.println("result 17: " + result17);
+    
+//        int result17 = LisasWorkbook.workbook(10, 5, new ArrayList<>(Arrays.asList(3, 8, 15, 11, 14, 1, 9, 2, 24, 31)));
+//        System.out.println("result 17: " + result17);
+    
+    
     }
 }
 
