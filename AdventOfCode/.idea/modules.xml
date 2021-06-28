@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AdventOfCode.iml" filepath="$PROJECT_DIR$/.idea/AdventOfCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryBoarding/BinaryBoarding.iml" filepath="$PROJECT_DIR$/BinaryBoarding/BinaryBoarding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomCustoms/CustomCustoms.iml" filepath="$PROJECT_DIR$/CustomCustoms/CustomCustoms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PassportProcessing/PassportProcessing.iml" filepath="$PROJECT_DIR$/PassportProcessing/PassportProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PasswordPhilosophy/PasswordPhilosophy.iml" filepath="$PROJECT_DIR$/PasswordPhilosophy/PasswordPhilosophy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReportRepair/ReportRepair.iml" filepath="$PROJECT_DIR$/ReportRepair/ReportRepair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TobogganTrajectory/TobogganTrajectory.iml" filepath="$PROJECT_DIR$/TobogganTrajectory/TobogganTrajectory.iml" />
+    </modules>
+  </component>
+</project>

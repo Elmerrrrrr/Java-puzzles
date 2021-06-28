@@ -101,8 +101,15 @@ public class Main {
     
 //        int result17 = LisasWorkbook.workbook(10, 5, new ArrayList<>(Arrays.asList(3, 8, 15, 11, 14, 1, 9, 2, 24, 31)));
 //        System.out.println("result 17: " + result17);
-    
-    
+
+        String result18 = FairRations.fairRations(new ArrayList<Integer>(Arrays.asList(2, 3, 4, 5, 6 )));
+//        String result18 = FairRations.fairRations(new ArrayList<Integer>(Arrays.asList(1,2)));
+        System.out.println("result 18: " + result18);
+
+        int result19 = MinimumDistances.minimumDistances(new ArrayList<Integer>(Arrays.asList(7, 1, 3, 4, 1, 7)));
+//        int result19 = MinimumDistances.minimumDistances(new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 10)));
+        System.out.println("result 19: " + result19);
+
     }
 }
 
