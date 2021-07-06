@@ -110,6 +110,12 @@ public class Main {
 //        int result19 = MinimumDistances.minimumDistances(new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 10)));
         System.out.println("result 19: " + result19);
 
+//        String result20 = Encryption.encryption("feedthedog");
+//        String result20 = Encryption.encryption("have a nice day");
+        String result20 = Encryption.encryption("if man was meant to stay on the ground god would have given us roots");
+        System.out.println("result 20: " + result20);
+
+
     }
 }
 
